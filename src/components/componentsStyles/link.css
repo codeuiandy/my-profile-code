@@ -1,0 +1,43 @@
+.linkUL{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color:rgb(6, 6, 68);
+  height:40px;
+  width: 100vw;
+  margin-bottom: 5px;
+  padding: 20px;
+  Font-weight: 700
+}
+
+
+.NavLinkLI{
+    list-style-type: none;
+ font-family: DomaineDisplayNarrow, Georgia, serif;
+ Line-height: 69.6px;
+}
+@media (max-width:400px){
+  .NavLinkLI{
+    font-size: 12px;
+  }
+}
+a{
+    color: #c7c6c6
+}
+
+.NavLinkLI .active{
+    list-style-type: none;
+  color: rgb(45, 218, 45);
+  border-bottom: solid green;
+  text-decoration: none;
+  border-width: 2px;
+     
+}
+
+a:hover:active{
+    list-style-type: none;
+    color:royalblue
+    
+}
+
+

@@ -1,0 +1,119 @@
+.overf{
+
+  
+    overflow: hidden;
+}
+.profileabout{
+    color:hsla(0, 1%, 67%, 0.719);
+   background-color: rgb(6, 6, 68);
+   height:100%;
+   animation: pro 1s ease-in-out forwards;
+   -webkit-animation: pro 1s ease-in-out forwards;
+   overflow: hidden;
+   display: flex;
+  
+   font-family: DomaineDisplayNarrow, Georgia, serif;
+   font-size: 16px;
+font-weight: 200px;
+line-height: 26.1px;
+width: 100vw;
+justify-content: space-evenly;
+align-content: space-between;
+
+  
+
+}
+@keyframes pro{
+   
+0%{
+    transform:  translateY(130px) skewY(90deg);
+    -webkit-transform:  translateY(130px) skewY(90deg);
+    -moz-transform:  translateY(130px) skewY(90deg);
+    -ms-transform:  translateY(130px) skewY(90deg);
+    -o-transform:  translateY(130px) skewY(90deg);
+}
+20%{
+    transform:  translateY(50px);
+    -webkit-transform:  translateY(50px);
+    -moz-transform:  translateY(50px);
+    -ms-transform:  translateY(50px);
+    -o-transform:  translateY(50px);
+}
+100%{
+    transform:  translateY(0px);
+    -webkit-transform:  translateY(0px);
+    -moz-transform:  translateY(0px);
+    -ms-transform:  translateY(0px);
+    -o-transform:  translateY(0px);
+   
+}
+}
+.sk{
+    background-image:linear-gradient(to bottom right, rgba(41, 38, 38, 0.616),
+    rgba(3, 3, 44, 0.877)) ,url(../../img/FB_IMG_1572259885001.jpg) ;
+ 
+   
+    background-size: cover;
+   background-position:top;
+   object-position: center;
+   object-fit:cover;
+   background-repeat: no-repeat;
+   width: 500px;
+   height:330px;
+   background-color: grey;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   font-family: DomaineDisplayNarrow, Georgia, serif;
+   font-size: 20px;
+font-weight: 200px;
+line-height: 26.1px;
+ 
+}
+.profiletext{
+align-self: center;
+text-align: center;
+align-items: center;
+margin: auto;
+max-width: 446px;
+padding: 5px;
+line-height: 25px;
+}
+@media(max-width:700px){
+
+    .profileabout{
+        display: block;
+        height:100%;
+    }
+    .sk{
+        width: 100vw;
+        height: 300px;
+    }
+    .profiletext{
+        max-width:auto;
+        padding: 10px
+    }
+}
+.skillsbtnp{
+    cursor: pointer; justify-content: center; align-items: center; display: flex; text-align: center; max-width: 90px; padding: 5px; line-height: 25px; background-color: green; margin: auto; border-radius:20px 0px 20px 0px ; -webkit-border-radius:20px 0px 20px 0px ; -moz-border-radius:20px 0px 20px 0px ; -ms-border-radius:20px 0px 20px 0px ; -o-border-radius:20px 0px 20px 0px ; mix-blend-mode:screen;
+}
+.skillsbtnp:hover{
+    filter:  drop-shadow(10px 20px 1px rgba(0, 0, 0, 0.158)) ;
+    -webkit-filter:  drop-shadow(10px 20px 1px rgba(0, 0, 0, 0.158)) ;
+}
+.profiletexth4{
+    padding-bottom: 10px;
+}
+.typeds{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 998887665543;
+  margin: auto;
+  left: 0px;
+  right: 0px;
+  color: rgb(18, 209, 18);
+  max-width: 300px;
+  
+  }

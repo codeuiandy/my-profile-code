@@ -1,0 +1,86 @@
+.overf{
+
+  
+    overflow: hidden;
+}
+.skills{
+   
+    background-color:   rgb(6, 6, 68);
+    height:100%;
+    animation: skills 1s ease-in-out forwards;
+    -webkit-animation: skills 1s ease-in-out forwards;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ @keyframes skills{
+    
+    0%{
+        transform:  translateX(-530px) ;
+        -webkit-transform:  translateX(-530px) ;
+        -moz-transform:  translateX(-530px) ;
+        -ms-transform:  translateX(-530px) ;
+        -o-transform:  translateX(-530px) ;
+}
+   
+    100%{
+        transform:  translateX(0px);
+        -webkit-transform:  translateX(0px);
+        -moz-transform:  translateX(0px);
+        -ms-transform:  translateX(0px);
+        -o-transform:  translateX(0px);
+   }
+    }
+
+    .skillsmini{
+        width:272px;
+        height: 289px;
+        color:hsla(0, 1%, 67%, 0.719);
+        background:  #282975;
+        margin: 20px;
+        border-radius: 30px            ;
+        -webkit-border-radius: 30px            ;
+        -moz-border-radius: 30px            ;
+        -ms-border-radius: 30px            ;
+        -o-border-radius: 30px            ;
+        text-align: center;
+    
+        overflow: hidden;
+        padding: 10px;
+       
+        font-family: DomaineDisplayNarrow, Georgia, serif;
+      
+}
+.skmom{
+    display: flex;
+justify-content: space-evenly
+
+}
+.sk1{
+  margin-right: auto;
+  
+}
+.ULS{
+    padding: 13px;
+    margin-bottom: 20px
+}
+.ULS li{
+    list-style-type:none;
+    line-height: 30px;
+    font-size: 11px
+    
+  
+}
+.skh1{
+    font-size: 16px;
+
+}
+.lchild{
+    margin-bottom: 10px;
+    padding-bottom: 10px
+}
+.SKV{
+    font-size: 20px;
+    letter-spacing: 12px
+}

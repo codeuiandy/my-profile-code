@@ -1,0 +1,100 @@
+form{
+    display: flex;
+    flex-direction: column;
+}
+.hase{
+    border-color: rgba(255, 0, 0, 0.726);
+}
+button{ cursor: pointer; justify-content: center; align-items: center; display: flex; text-align: center; max-width: 90px; padding: 5px; line-height: 25px; background-color: green; margin: auto; border-radius:20px 0px 20px 0px ; -webkit-border-radius:20px 0px 20px 0px ; -moz-border-radius:20px 0px 20px 0px ; -ms-border-radius:20px 0px 20px 0px ; -o-border-radius:20px 0px 20px 0px ; mix-blend-mode:screen;
+}
+.wrap{
+width: 100vw;
+height: auto;
+background-color:   rgb(6, 6, 68);
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin: auto;
+color: white;
+animation: csscom 1s ease-in-out forwards;
+    -webkit-animation: csscom 1s ease-in-out forwards;
+    overflow: hidden;
+    box-sizing: border-box;
+    color:hsla(0, 0%, 100%, 0.719);
+    font-family: DomaineDisplayNarrow, Georgia, serif;
+}
+.wrap2{
+    width: 50%;
+    background:  #282975;
+    color:hsla(0, 1%, 67%, 0.719);
+    filter:  drop-shadow(10px 20px 3px rgba(0, 0, 0, 0.308)) ;
+    -webkit-filter:  drop-shadow(10px 20px 3px rgba(0, 0, 0, 0.308)) ; 
+margin: 10px;
+}
+@media(max-width:600px){
+    .wrap2{
+        width:95%
+    }
+}
+input{
+    margin:auto;
+    outline: none;
+    padding: 10px;
+   
+        font-family: DomaineDisplayNarrow, Georgia, serif;
+    letter-spacing: 2px;
+}
+
+.error{
+    color: rgba(255, 0, 0, 0.863);
+    font-size: 13px;
+    text-align: end;
+    padding-right: 10px;
+
+}
+.valid{
+    color: rgb(14, 201, 14);
+    font-size: 14px;
+    text-align: end;
+    padding-right: 10px;
+
+}
+
+.Submitbtn{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    border-color: grey;
+    padding: 6px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.suc{
+    text-align: center;
+    color:rgb(14, 201, 14);
+    margin-top: 10px;
+    border-color: #9357CF;
+    padding: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+width: 100%;
+height: 40px;
+margin-top: 0px;
+padding: 0px;
+background-color:#20246A ;
+text-align: center;
+vertical-align: middle;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 10px;
+
+}
+
+label{
+    margin-top:5px
+}
+.sel{
+    width:100px
+}

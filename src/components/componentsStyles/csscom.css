@@ -1,0 +1,31 @@
+.overf{
+
+  
+    overflow: hidden;
+}
+.csscom{
+    background-color: rgb(6, 6, 68);
+    height:100%;
+    animation: csscom 1s ease-in-out forwards;
+    -webkit-animation: csscom 1s ease-in-out forwards;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+ @keyframes csscom{
+    
+ 0%{
+     transform:  translateX(530px) ;
+     -webkit-transform:  translateX(530px) ;
+     -moz-transform:  translateX(530px) ;
+     -ms-transform:  translateX(530px) ;
+     -o-transform:  translateX(530px) ;
+}
+
+ 100%{
+     transform:  translateX(0px);
+     -webkit-transform:  translateX(0px);
+     -moz-transform:  translateX(0px);
+     -ms-transform:  translateX(0px);
+     -o-transform:  translateX(0px);
+}
+ }

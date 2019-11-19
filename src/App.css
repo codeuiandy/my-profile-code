@@ -1,0 +1,29 @@
+.App{
+    overflow-x: hidden !important;
+    width: 100%;
+    box-sizing: border-box;
+    scrollbar-color: red !important;
+ scrollbar-track-color: yellow;
+ scrollbar-width: 120px;
+ padding: 0px;
+ margin: 0px;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    scrollbar-color: red;
+    scrollbar-track-color: yellow;
+    scrollbar-width: 120px;
+    scroll-behavior: smooth
+}
+#ab{
+    scroll-behavior: smooth;
+    scrollbar-color: red;
+ 
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    text-align: end;
+   
+  
+}
